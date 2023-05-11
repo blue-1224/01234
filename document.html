@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>문서 작성 도움 서비스</title>
+  </head>
+  <body>
+    <h1>문서 작성 도움 서비스</h1>
+    <form>
+      <label for="content">문서 내용:</label><br>
+      <textarea id="content" name="content" rows="10" cols="50"></textarea><br><br>
+      <button type="button" onclick="addText()">텍스트 추가</button>
+      <button type="button" onclick="addImage()">이미지 추가</button>
+      <button type="button" onclick="addTable()">표 추가</button>
+      <br><br>
+      <input type="submit" value="문서 저장">
+    </form>
+    <hr>
+    <div id="document"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
